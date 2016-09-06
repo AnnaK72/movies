@@ -1,0 +1,242 @@
+[
+  {
+  "title": "Gone With the Wind",
+  "genre": "Drama",
+  "details": {
+    "country": "USA",
+    "duration": 192,
+    "rating": "PG"
+      },
+  "director" : "Victor Fleming",
+  "actors" : [
+      "Vivien Leigh",
+      "Thomas Mitchell",
+      "Clark Gable"
+    ],
+  "image": "img/gonewiththewind.jpg",
+  "showing": [
+       "Savoy Cinema",
+       "Light House Cinema",
+       "Omniplex Balbriggan"
+        ],
+        
+  "review" :{
+    "copy": "Donec elementum, odio non porttitor scelerisque, nisi nisl imperdiet velit, at pellentesque velit diam eget metus. Curabitur elit ex, ultricies sed nunc ac, tincidunt molestie enim. Sed dignissim sodales urna, eget finibus velit efficitur fringilla. Donec non orci ut nunc eleifend egestas. Vivamus eget purus ut arcu egestas luctus. Nulla vehicula interdum nibh sed imperdiet. Integer id lacinia dolor, sed venenatis dolor. Vestibulum congue egestas nunc, at laoreet risus egestas non. Nullam faucibus pulvinar pretium. Suspendisse cursus libero vitae nulla vulputate mattis. Donec sem erat, imperdiet in iaculis vulputate, rutrum sed nisi. Proin tempor diam mauris, ac fringilla ex congue at. Quisque dictum lacus non turpis placerat, id blandit leo tristique. In volutpat nisl eget neque dictum molestie. Etiam maximus rhoncus ligula, sit amet porta elit lacinia et.",
+    "stars": "4/5"
+  }     
+   },
+  {
+  "title": "Back to the Future",
+  "genre": "Adventure",
+  "details": {
+    "country": "USA",
+    "duration": 120,
+    "rating": "15"
+      },
+  "director" : "Robert Zemickis",
+  "actors" : [
+      "Michael J Fox",
+      "Christopher Lloyd",
+      "Leigh Thompson"
+    ],
+  "image": "img/backtothefuture.jpg",
+  "showing": [
+       "Odeon Coolock",
+       "Irish Film Institute",
+       "Odeon Stillorgan"
+        ],
+        
+  "review" :{
+    "copy": "Donec elementum, odio non porttitor scelerisque, nisi nisl imperdiet velit, at pellentesque velit diam eget metus. Curabitur elit ex, ultricies sed nunc ac, tincidunt molestie enim. Sed dignissim sodales urna, eget finibus velit efficitur fringilla. Donec non orci ut nunc eleifend egestas. Vivamus eget purus ut arcu egestas luctus. Nulla vehicula interdum nibh sed imperdiet. Integer id lacinia dolor, sed venenatis dolor. Vestibulum congue egestas nunc, at laoreet risus egestas non. Nullam faucibus pulvinar pretium. Suspendisse cursus libero vitae nulla vulputate mattis. Donec sem erat, imperdiet in iaculis vulputate, rutrum sed nisi. Proin tempor diam mauris, ac fringilla ex congue at. Quisque dictum lacus non turpis placerat, id blandit leo tristique. In volutpat nisl eget neque dictum molestie. Etiam maximus rhoncus ligula, sit amet porta elit lacinia et.",
+    "stars": "3/5"
+  }     
+   },
+  {
+  "title": "Harry Potter and the Sorcerer's Stone",
+  "genre": "Fantasy",
+  "details": {
+    "country": "USA",
+    "duration": 160 ,
+    "rating": "PG"
+      },
+  "director" : "Chris Columbus",
+  "actors" : [
+     "Daniel Radcliffe",
+     "Rupert Glint",
+     "Richard Harris" 
+    ],
+  "image": "img/harrypotter.jpg",
+  "showing": [
+       "Light House Cinema",
+       "Odeon Stillorgan",
+       "Cineworld Dublin"
+           ],
+        
+  "review" :{
+    "copy": "Donec elementum, odio non porttitor scelerisque, nisi nisl imperdiet velit, at pellentesque velit diam eget metus. Curabitur elit ex, ultricies sed nunc ac, tincidunt molestie enim. Sed dignissim sodales urna, eget finibus velit efficitur fringilla. Donec non orci ut nunc eleifend egestas. Vivamus eget purus ut arcu egestas luctus. Nulla vehicula interdum nibh sed imperdiet. Integer id lacinia dolor, sed venenatis dolor. Vestibulum congue egestas nunc, at laoreet risus egestas non. Nullam faucibus pulvinar pretium. Suspendisse cursus libero vitae nulla vulputate mattis. Donec sem erat, imperdiet in iaculis vulputate, rutrum sed nisi. Proin tempor diam mauris, ac fringilla ex congue at. Quisque dictum lacus non turpis placerat, id blandit leo tristique. In volutpat nisl eget neque dictum molestie. Etiam maximus rhoncus ligula, sit amet porta elit lacinia et.",
+    "stars": "4/5"
+  }     
+   },
+  {
+  "title": "The Commitments",
+  "genre": "Comedy Drama",
+  "details": {
+    "country": "Ireland",
+    "duration": 180,
+    "rating": "12"
+      },
+  "director" : "Alan Parker",
+  "actors" : [
+      "Robert Arkins",
+      "Andrew Strong",
+      "Bronagh Gallagher"
+    ],
+  "image": "img/committments.jpg",
+  "showing": [
+       "Cineworld Dublin",
+       "Odeon Coolock",
+       "Savoy Cinema"
+        ],
+        
+  "review" :{
+    "copy": "Donec elementum, odio non porttitor scelerisque, nisi nisl imperdiet velit, at pellentesque velit diam eget metus. Curabitur elit ex, ultricies sed nunc ac, tincidunt molestie enim. Sed dignissim sodales urna, eget finibus velit efficitur fringilla. Donec non orci ut nunc eleifend egestas. Vivamus eget purus ut arcu egestas luctus. Nulla vehicula interdum nibh sed imperdiet. Integer id lacinia dolor, sed venenatis dolor. Vestibulum congue egestas nunc, at laoreet risus egestas non. Nullam faucibus pulvinar pretium. Suspendisse cursus libero vitae nulla vulputate mattis. Donec sem erat, imperdiet in iaculis vulputate, rutrum sed nisi. Proin tempor diam mauris, ac fringilla ex congue at. Quisque dictum lacus non turpis placerat, id blandit leo tristique. In volutpat nisl eget neque dictum molestie. Etiam maximus rhoncus ligula, sit amet porta elit lacinia et.",
+    "stars": "5/5"
+  }     
+   },
+  {
+  "title": "Brooklyn",
+  "genre": "Drama",
+  "details": {
+    "country": "Ireland",
+    "duration" :130,
+    "rating": "15"
+      },
+  "director" : "Jim Crowley",
+  "actors" : [
+      "Saoirse Ronan",
+      "Emily Cohen",
+      "Donal Gleeson"
+    ],
+  "image": "img/brooklyn.jpg",
+  "showing": [
+       "Odeon Stillorgan",
+       "Light House Cinema",
+       "Irish Film Institute"
+        ],
+        
+  "review" :{
+    "copy": "Donec elementum, odio non porttitor scelerisque, nisi nisl imperdiet velit, at pellentesque velit diam eget metus. Curabitur elit ex, ultricies sed nunc ac, tincidunt molestie enim. Sed dignissim sodales urna, eget finibus velit efficitur fringilla. Donec non orci ut nunc eleifend egestas. Vivamus eget purus ut arcu egestas luctus. Nulla vehicula interdum nibh sed imperdiet. Integer id lacinia dolor, sed venenatis dolor. Vestibulum congue egestas nunc, at laoreet risus egestas non. Nullam faucibus pulvinar pretium. Suspendisse cursus libero vitae nulla vulputate mattis. Donec sem erat, imperdiet in iaculis vulputate, rutrum sed nisi. Proin tempor diam mauris, ac fringilla ex congue at. Quisque dictum lacus non turpis placerat, id blandit leo tristique. In volutpat nisl eget neque dictum molestie. Etiam maximus rhoncus ligula, sit amet porta elit lacinia et.",
+    "stars": "2/5"
+  }     
+   },
+  {
+  "title": "The Big Short",
+  "genre": "Drama",
+  "details": {
+    "country": "USA",
+    "duration": 220,
+    "rating": "18"
+      },
+  "director" : "Adam McKay",
+  "actors" : [
+      "Brad Pitt",
+      "Tom Hanks"
+      
+    ],
+  "image": "img/thebigshort.jpg",
+  "showing": [
+       "Omniplex Balbriggan",
+       "Savoy Cinema",
+       "Odeon Coolock"
+        ],
+        
+  "review" :{
+    "copy": "Donec elementum, odio non porttitor scelerisque, nisi nisl imperdiet velit, at pellentesque velit diam eget metus. Curabitur elit ex, ultricies sed nunc ac, tincidunt molestie enim. Sed dignissim sodales urna, eget finibus velit efficitur fringilla. Donec non orci ut nunc eleifend egestas. Vivamus eget purus ut arcu egestas luctus. Nulla vehicula interdum nibh sed imperdiet. Integer id lacinia dolor, sed venenatis dolor. Vestibulum congue egestas nunc, at laoreet risus egestas non. Nullam faucibus pulvinar pretium. Suspendisse cursus libero vitae nulla vulputate mattis. Donec sem erat, imperdiet in iaculis vulputate, rutrum sed nisi. Proin tempor diam mauris, ac fringilla ex congue at. Quisque dictum lacus non turpis placerat, id blandit leo tristique. In volutpat nisl eget neque dictum molestie. Etiam maximus rhoncus ligula, sit amet porta elit lacinia et.",
+    "stars": "5/5"
+  }     
+   },     
+  {
+  "title": "Inception",
+  "genre": "Sci-fi",
+  "details": {
+    "country": "USA",
+    "duration": 110,
+    "rating": "18"
+      },
+  "director" : "Christopher Nolan",
+  "actors" : [
+      "Leonardo di Caprio",
+      "Ellen Page"
+      
+
+    ],
+  "image": "img/inception.jpg",
+  "showing": [
+       "Savoy Cinema",
+       "Irish Film Institute"
+       
+        ],
+        
+  "review" :{
+    "copy": "Donec elementum, odio non porttitor scelerisque, nisi nisl imperdiet velit, at pellentesque velit diam eget metus. Curabitur elit ex, ultricies sed nunc ac, tincidunt molestie enim. Sed dignissim sodales urna, eget finibus velit efficitur fringilla. Donec non orci ut nunc eleifend egestas. Vivamus eget purus ut arcu egestas luctus. Nulla vehicula interdum nibh sed imperdiet. Integer id lacinia dolor, sed venenatis dolor. Vestibulum congue egestas nunc, at laoreet risus egestas non. Nullam faucibus pulvinar pretium. Suspendisse cursus libero vitae nulla vulputate mattis. Donec sem erat, imperdiet in iaculis vulputate, rutrum sed nisi. Proin tempor diam mauris, ac fringilla ex congue at. Quisque dictum lacus non turpis placerat, id blandit leo tristique. In volutpat nisl eget neque dictum molestie. Etiam maximus rhoncus ligula, sit amet porta elit lacinia et.",
+    "stars": "1/5"
+  }     
+   },     
+ {
+  "title": "Blue Jasmine",
+  "genre": "Drama",
+  "details": {
+    "country": "USA",
+    "duration": 120,
+    "rating": "15"
+      },
+  "director" : "Woody Allen",
+  "actors" : [
+      "Cate Blanchette",
+      "Alec Baldwin",
+      "Peter Sarsgaard"
+    ],
+  "image": "img/bluejasmine.jpg",
+  "showing": [
+       "Savoy Cinema",
+       "Odeon Stillorgan",
+       "Light House Cinema"
+        ],
+        
+  "review" :{
+    "copy": "Donec elementum, odio non porttitor scelerisque, nisi nisl imperdiet velit, at pellentesque velit diam eget metus. Curabitur elit ex, ultricies sed nunc ac, tincidunt molestie enim. Sed dignissim sodales urna, eget finibus velit efficitur fringilla. Donec non orci ut nunc eleifend egestas. Vivamus eget purus ut arcu egestas luctus. Nulla vehicula interdum nibh sed imperdiet. Integer id lacinia dolor, sed venenatis dolor. Vestibulum congue egestas nunc, at laoreet risus egestas non. Nullam faucibus pulvinar pretium. Suspendisse cursus libero vitae nulla vulputate mattis. Donec sem erat, imperdiet in iaculis vulputate, rutrum sed nisi. Proin tempor diam mauris, ac fringilla ex congue at. Quisque dictum lacus non turpis placerat, id blandit leo tristique. In volutpat nisl eget neque dictum molestie. Etiam maximus rhoncus ligula, sit amet porta elit lacinia et.",
+    "stars": "4/5"
+  }     
+   },     
+  {
+  "title": "The Duchess",
+  "genre": "Drama",
+  "details": {
+    "country": "USA",
+    "duration": 115,
+    "rating": "18"
+      },
+  "director" : "Saul Dibb",
+  "actors" : [
+      "Kiera Knightley",
+      "Ralph Fiennes"
+      
+    ],
+  "image": "img/theduchess.jpg",
+  "showing": [
+       "Irish Film Institute",
+       "Odeon Stillorgan",
+       "Omniplex Balbriggan"
+        ],
+        
+  "review" :{
+    "copy": "Donec elementum, odio non porttitor scelerisque, nisi nisl imperdiet velit, at pellentesque velit diam eget metus. Curabitur elit ex, ultricies sed nunc ac, tincidunt molestie enim. Sed dignissim sodales urna, eget finibus velit efficitur fringilla. Donec non orci ut nunc eleifend egestas. Vivamus eget purus ut arcu egestas luctus. Nulla vehicula interdum nibh sed imperdiet. Integer id lacinia dolor, sed venenatis dolor. Vestibulum congue egestas nunc, at laoreet risus egestas non. Nullam faucibus pulvinar pretium. Suspendisse cursus libero vitae nulla vulputate mattis. Donec sem erat, imperdiet in iaculis vulputate, rutrum sed nisi. Proin tempor diam mauris, ac fringilla ex congue at. Quisque dictum lacus non turpis placerat, id blandit leo tristique. In volutpat nisl eget neque dictum molestie. Etiam maximus rhoncus ligula, sit amet porta elit lacinia et.",
+    "stars": "3/5"
+  }     
+   }        
+]
+
+
+
+
+
