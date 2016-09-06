@@ -1,0 +1,170 @@
+<!--
+*Author: Patricia Rudden
+*Assignment: WE 4.1  Mobile Web Applications, Digital Skills Academy 
+*Student ID: D15128656
+*Date: 2016/08/09
+-->
+
+<!DOCTYPE html>
+<html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+	<link rel="stylesheet" href="themes/myTheme.min.css" />
+	<link rel="stylesheet" href="themes/mycss.css"/> 
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	
+	
+<title>Movie Reviews</title>	
+</head>
+
+
+<body>
+
+	<div id="container"	>
+
+		<div data-role="page" id="home" >
+			<!-- create a left side panel and content of panel -->
+			<div data-role="panel" class="panel left" id="myPanel">
+				<div data-role="header">
+					<h1>About Us</h1>
+				</div>
+					<div data-role="content">
+				
+					<ul data-role="listview" data-inset="true" data-autodividers="true" data-filter="true" data-filter-reveal="true" data-filter-placeholder="Search movies..." class="myList">  </ul>
+			
+					<a href="#home" data-rel="close" data-role="button"   class="ui-btn ui-btn-inline ui-corner-all ui-btn-icon-left ui-icon-home " >Back to Home</a>			
+				</div> 
+			</div>
+
+			<div data-role="header">
+				<h1>Movie Reviews</h1>
+					<a href="#myPanel"  class="ui-btn ui-btn-left ui-btn-inline ui-corner-all ui-btn-icon-left ui-icon-arrow-l ">More</a>
+			</div> 
+
+			<div data-role="content">
+				<div class="content-primary">
+					<div data-demo-html="true">		
+						<p class="centre">Search for a movie to find information and our review </p>
+										
+						<ul data-role="listview" data-inset="true"  data-filter="true"  data-filter-placeholder="Search movies..." class="myList" >  					
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div><!--container -->
+
+<script type="text/javascript">
+
+$("document").ready(function(){
+	//Use the getJSON AJAX method to get data from a json file and push it into an array:
+	$.getJSON("movies.json", function(data){
+	 	var myArray =[];
+		$.each(data, function(i, value){
+			myArray.push(value);
+		});
+	//sort the data - sort each object alphabetically by the title property
+	//Code reuse
+	//Ref:http://stackoverflow.com/questions/979256/sorting-an-array-of-javascript-objects
+	myArray.sort(function(a, b) {					
+  		return a.title.localeCompare(b.title);
+		});
+	// pass the array into the displayData method:
+	displayData(myArray);
+	});
+	
+
+
+
+function displayData(items){
+   console.log(items);
+   $.each(items, function(i, value){
+   	//assign the values in the array to variables:
+      	var movietitle, genre, director, imageSrc, country, duration, rating, review, stars;
+     	var actors = [];
+   		var cinemas = [];
+   	    movietitle = value.title;
+     	genre = value.genre;
+   		director = value.director;
+      	imageSrc = value.image;
+   	   	actors = value.actors;
+       	country = value.details.country;
+     	duration = value.details.duration;
+     	rating = value.details.rating;
+     	review = value.review.copy;
+       	stars = value.review.stars;
+       	cinemas = value.showing;
+   		//for each item in the array create a <li> tag and append it to ghe list view with a link to a new virtual page
+   		$(".myList").append('<li data-icon="info"><a href="#page' + i + '" data-transition="slideup">' + movietitle + ' </a></li>');
+   		//refresh the listview after adding each <li>
+		$(".myList").listview("refresh");
+		//dynamically create a new page for each value in the array and append it to the DOM:
+		$("#container").append('<div data-role="page" id= "page' + i + '">' + addHeader(movietitle, rating) + '<div data-role="content"><div class="content-primary"><div data-demo-html="true">' +'<img src="' + imageSrc + '">' + addData(director, actors, genre, country, duration, cinemas, stars, review)  + backToHome() + '</div></div></div></div>');
+
+   });
+
+}
+//function to create a header for each new page
+function addHeader(movietitle, rating){
+	var myhtml = "";
+	myhtml += "<div data-role='header'>";
+	myhtml += "<h1>" + movietitle + " " + rating + "</h1>";
+	myhtml += "</div>";
+	return myhtml;
+}
+//function to create the content of each new page
+function addData(director, actors, genre, country, duration, cinemas, stars, review){
+	var myhtml = "";
+	
+	myhtml += "<div class='infoDiv'> Director: " + director + "<br>";
+	myhtml += "Actors: ";
+		for(var i = 0; i < actors.length; i++){
+			if(i == actors.length - 1){
+				myhtml += actors[i];
+			}else{
+			    myhtml +=  actors[i] + ", ";
+			}
+				}
+	myhtml += "<br>Genre: " + genre + "<br>Details: " + country + ", " + duration + " minutes <br> ";
+	myhtml += "Now Showing at: " ;		
+	    for(var i = 0; i < cinemas.length; i++){
+			if(i == cinemas.length - 1){
+				myhtml += cinemas[i];
+			}else{
+			    myhtml += cinemas[i] + ", ";
+			}
+				}
+	myhtml += "<br>Our Rating: " + stars + "</div> " + "<div class='reviewDiv'>" + review + "</div>";			
+	  	   
+	
+	return myhtml;
+}
+//function to create the 'search again' button on each dynamically injected page:
+function backToHome(){
+	var myhtml = "";
+	myhtml += "<br/><br/><br/><div class='centre' id='clear'><a href='#home'  class='ui-btn ui-btn-inline ui-corner-all ui-btn-icon-left ui-icon-back'>search again</a></div>";
+			return myhtml;	
+				}
+	
+
+	});
+
+
+
+
+
+</script>	
+
+	
+
+
+
+
+
+</body>
+
+
+</html>
