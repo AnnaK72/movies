@@ -1,0 +1,47 @@
+/*
+*Author: Patricia Rudden
+*Assignment: WE 4.1  Mobile Web Applications, Digital Skills Academy 
+*Student ID: D15128656
+*Date: 2016/08/09
+*/
+
+
+
+.infoDiv{
+	font-size: .8em;
+	padding-top: 20px;
+	
+}
+
+.reviewDiv{
+	padding-top: 20px;
+
+}
+
+img{
+	display: block;
+	width: 80%;
+	max-width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+
+@media only screen and (min-width: 768px){
+	img{
+		float: left;
+		width: 45%;
+	}
+
+	.infoDiv{
+		float: right;
+		width: 45%;
+		padding-top: 5px;
+		font-size: 1em;
+
+	}
+	.reviewDiv{
+		clear: both;
+	}
+
+}
